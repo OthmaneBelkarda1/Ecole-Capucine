@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Les Capucines</title>
+    <link rel="stylesheet" href="style/contact.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container" id="navbar">
+                <div class="logo">
+                  <a href="index.html"><img src="img/capucineLog.png" alt="Les Capucines Logo"></a>  
+        
+                </div>
+                <div>
+                    <a href='index.html'class="indexLink">à propos</a>
+                    <a href="Gallerie.html"class="indexLink">Galerie</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Inscription - Les Capucines</h1>
+            <form id="registrationForm" method="dialog">
+                <div class="form-group">
+                    <label for="parentLastName">Nom du parent:</label>
+                    <input type="text" id="parentLastName" class="jsNameP" name="parentLastName" >
+                </div>
+                <div class="form-group">
+                    <label for="parentFirstName" >Prénom du parent:</label>
+                    <input type="text" id="parentFirstName" class="jsFirstNameP"name="parentFirstName" >
+                </div>
+                <div class="form-group">
+                    <label for="studentLastName">Nom de l'élève:</label>
+                    <input type="text" id="studentLastName"class="jsNameE" name="studentLastName" >
+                </div>
+                <div class="form-group">
+                    <label for="studentFirstName">Prénom de l'élève:</label>
+                    <input type="text" id="studentFirstName"class="jsFirstNameE" name="studentFirstName" >
+                </div>
+                <div class="form-group">
+                    <label for="Age">Age d'éleve:</label>
+                    <input type="number" id="Age" class="jsAge" name="age" >
+                </div>
+                <div class="form-group">
+                    <label for="level">Niveau:</label>
+                    <select id="level" name="level"  class="jsNiveau">
+                        <option >la petite section</option>
+                        <option >la moyenne section</option>
+                        <option >la grande section</option>
+                        <option >CE1</option>
+                        <option >CE2</option>
+                        <option >CE3</option>
+                        <option >CE4</option>
+                        <option >CE5</option>
+                        <option >CE6</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="parentPhone">Numéro de téléphone du parent:</label>
+                    <input type="tel" id="parentPhone" class="jsNumero" name="parentPhone" >
+                </div>
+                <div class="form-group">
+                    <label for="parentEmail">Email du parent:</label>
+                    <input type="email" class="jsEmail" id="parentEmail" name="parentEmail" >
+                </div>
+                <button  class="submit">S'inscrire</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>À propos de nous</h3>
+                    <p>Les Capucines, première école trilingue à Agdal, offrant une excellence académique en français, arabe et anglais.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="inscription.html">Inscription</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><strong>Email:</strong> contact.lescapucines2022@gmail.com</p>
+                    <p><strong>Tél</strong> +212  661236260</p>
+                    <p><strong>Tél:</strong>+212  666300731</p>
+                    <p><strong>Tél</strong> +212  672473407</p>
+                    <a href="https://www.instagram.com/ecole_les_capucines/"><img src="img/insta.png" class="instaImg"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Les Capucines. Tous droits réservés | Develped by <strong><a href="https://reachmediagency.com/" class="reach">reachmediagency</a></strong></p>
+            </div>
+        </div>
+    </footer>
+   <script src="script/inscription.js"></script>
+</body>
+</html>
