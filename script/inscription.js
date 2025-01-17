@@ -1,6 +1,14 @@
+
 document.querySelector('.submit').addEventListener('click',() => {
+  if (!document.querySelector('.jsNameP').value || !document.querySelector('.jsFirstNameP').value
+   || ! document.querySelector('.jsNameE').value || !document.querySelector('.jsFirstNameE').value|| 
+    !document.querySelector('.jsAge').value || !document.querySelector('.jsEmail').value || !document.querySelector('.jsNumero').value
+) {
+      alert('Veuillez remplir tous les champs du formulaire.');
+      return;
+  }
   try {
-    const response = fetch('https://capucinebackend.onrender.com/article', {
+    const response = fetch('https://capucinebackend-b3ex.onrender.com/articles ', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
