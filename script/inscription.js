@@ -26,9 +26,7 @@ document.querySelector('.submit').addEventListener('click',() => {
     });
 
     alert('Votre inscription est confirmée!');
-    setTimeout(function() {
-      location.reload();
-    }, 3000);
+  
     
     
 
