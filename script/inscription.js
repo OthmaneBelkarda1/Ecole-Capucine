@@ -8,7 +8,7 @@ document.querySelector('.submit').addEventListener('click',() => {
       return;
   }
   try {
-    const response = fetch('https://capucinebackend-b3ex.onrender.com/articles ', {
+    const response = fetch('http://213.130.147.62:3000/articles ', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
