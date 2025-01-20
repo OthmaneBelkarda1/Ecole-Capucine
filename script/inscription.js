@@ -8,7 +8,7 @@ document.querySelector('.submit').addEventListener('click',() => {
       return;
   }
   try {
-    const response = fetch('https://213.130.147.62:3000/articles ', {
+    const response = fetch('http://213.130.147.62:3000/articles ', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
